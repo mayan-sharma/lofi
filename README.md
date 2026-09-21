@@ -1,10 +1,12 @@
 # lofi
 
-A lofi night that plays in Claude Code while you work.
+Lofi backgrounds with music for Claude Code.
 
-Type `/lofi` and a pixel scene appears in the band above the prompt: a night sky over a small
-skyline, rain, drifting clouds, a crescent moon, windows that blink. Its own music plays under it.
-It stays up for as long as you leave it on: while Claude works, between turns, all day.
+Type `/lofi` and a pixel scene fills the band above the prompt, with its own music under it: a
+rainy night over a small skyline, snowfall, an aquarium, a campfire, or the louder ones, a fire with
+dancers, a plasma scroller, a starfield with a cube, a matrix rain. It stays up for as long as you
+leave it on: while Claude works, between turns, all day. Every scene reacts to what Claude is
+doing, and the calm ones do it quietly.
 
 ```
 ☾ night · working · 0:06 · Read ×3 · session 1:42:10 · ♪ night
@@ -30,7 +32,8 @@ To run from a clone instead: `claude --plugin-dir ./lofi` for one session, or
 
 ## Use
 
-- `/lofi` — turn it on, and keep it on between turns too. `/lofi off` turns it off.
+- `/lofi` — turn it on, and keep it on between turns too. `/lofi off` turns it off. It opens on
+  the night scene; pick another and it remembers.
 - `/lofi music on` — the loop plays. `/lofi music off` stops it. Off by default.
 - `/lofi music night|rain|warm|deep` picks a loop; `/lofi music next` cycles; `/lofi music auto`
   lets the scene choose; `/lofi music list` shows what is on the air.
@@ -44,9 +47,10 @@ Volume, Scene, Track, Quiet (no flashes on tool calls), Spinner dancer, Always o
 
 ## The scenes
 
-The calm four answer a tool call with a small event, never a flash:
+Four calm, four loud. The calm ones answer a tool call with a small event, never a flash:
 
-- **night** — the lofi night. A tool call is a shooting star; the bow lights every window.
+- **night** — a rainy night over a small skyline, drifting clouds, a crescent moon, windows that
+  blink. A tool call is a shooting star; the end of a turn lights every window.
 - **snow** — the same town in winter. A tool call is a gust.
 - **aquarium** — sand, weeds that sway, fish that cross and turn, bubbles. A tool call is a burst
   of bubbles; a subagent is one more fish.

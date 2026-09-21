@@ -1,7 +1,7 @@
 {
   "name": "lofi",
   "version": "0.1.0",
-  "description": "A lofi night that plays in Claude Code while you work: a pixel scene above the prompt with generated music, on while a turn runs or all the time. Eight scenes (night, snow, aquarium, campfire, fire, plasma, cube, matrix), four generated loops. Needs function hooks (early access).",
+  "description": "Lofi backgrounds with music for Claude Code: a pixel scene above the prompt with a generated loop under it, on while a turn runs or all the time. Eight scenes (night, snow, aquarium, campfire, fire, plasma, cube, matrix), four loops, /lofi to run it. Needs function hooks (early access).",
   "author": {
     "name": "Mayan Sharma"
   },

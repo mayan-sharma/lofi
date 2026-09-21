@@ -4,13 +4,13 @@
     "name": "Mayan Sharma"
   },
   "metadata": {
-    "description": "lofi: a lofi night that plays in Claude Code while you work"
+    "description": "lofi: lofi backgrounds with music for Claude Code"
   },
   "plugins": [
     {
       "name": "lofi",
       "source": "./",
-      "description": "A lofi night above the Claude Code prompt with generated music, on while a turn runs or all the time. Eight scenes, four loops, /lofi to control it.",
+      "description": "Lofi backgrounds with music for Claude Code. A pixel scene above the prompt with a generated loop under it, on while a turn runs or all the time; eight scenes, four loops, /lofi to run it.",
       "homepage": "https://github.com/mayan-sharma/lofi",
       "repository": "https://github.com/mayan-sharma/lofi",
       "license": "MIT"
