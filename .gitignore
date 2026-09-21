@@ -1,0 +1,4 @@
+.claude/types/
+.venv/
+node_modules/
+.media/

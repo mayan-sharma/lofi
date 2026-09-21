@@ -1,0 +1,83 @@
+{
+  "name": "lofi",
+  "version": "0.1.0",
+  "description": "A lofi night that plays in Claude Code while you work: a pixel scene above the prompt with generated music, on while a turn runs or all the time. Eight scenes (night, snow, aquarium, campfire, fire, plasma, cube, matrix), four generated loops. Needs function hooks (early access).",
+  "author": {
+    "name": "Mayan Sharma"
+  },
+  "homepage": "https://github.com/mayan-sharma/lofi",
+  "repository": "https://github.com/mayan-sharma/lofi",
+  "license": "MIT",
+  "keywords": [
+    "lofi",
+    "music",
+    "ambient",
+    "screensaver",
+    "terminal",
+    "tui",
+    "fun",
+    "function-hooks"
+  ],
+  "userConfig": {
+    "music": {
+      "type": "boolean",
+      "default": false,
+      "title": "Music",
+      "description": "Play a generated lofi loop while the show is on"
+    },
+    "volume": {
+      "type": "number",
+      "default": 0.6,
+      "title": "Volume",
+      "description": "Music gain, 0 to 2"
+    },
+    "scene": {
+      "type": "string",
+      "default": "night",
+      "options": [
+        "night",
+        "snow",
+        "aquarium",
+        "campfire",
+        "fire",
+        "plasma",
+        "cube",
+        "matrix",
+        "auto"
+      ],
+      "title": "Scene",
+      "description": "Which scene plays; auto cycles them"
+    },
+    "quiet": {
+      "type": "boolean",
+      "default": false,
+      "title": "Quiet",
+      "description": "No flashes on tool calls (the calm scenes stay calm either way)"
+    },
+    "spinner": {
+      "type": "boolean",
+      "default": true,
+      "title": "Spinner dancer",
+      "description": "A tiny dancer beside the spinner line while a turn runs"
+    },
+    "always": {
+      "type": "boolean",
+      "default": false,
+      "title": "Always on",
+      "description": "Keep the show running between turns too, not only while Claude works"
+    },
+    "track": {
+      "type": "string",
+      "default": "auto",
+      "options": [
+        "auto",
+        "night",
+        "rain",
+        "warm",
+        "deep"
+      ],
+      "title": "Track",
+      "description": "Which loop plays; auto picks one for the scene"
+    }
+  }
+}

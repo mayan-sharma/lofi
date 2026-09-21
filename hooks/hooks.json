@@ -1,0 +1,4 @@
+{
+  "description": "lofi: a demo above the prompt while a turn runs, a dancer beside the spinner, an optional lofi loop; /lofi on|off|next|auto|<scene>|music on|off. Needs CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1; builds without function hooks ignore the modules key.",
+  "modules": ["./register.tsx"]
+}
